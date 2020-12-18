@@ -4,7 +4,7 @@ int presion();
 
 int main()
 {
-    float  p=0;
+    float  pres=0;
     pres = presion();
     printf("La presion de la superficie es de: %.1f\n", pres);
     return 0;
