@@ -14,11 +14,16 @@
 	}
 
 	void teca(int n, int n1){
-		if (n>n1) {
+		if (n>n1) 
+		{
 			printf(" %d Es mayor que %d ",n,n1);
-		}else if(n1>n){
-			printf(" %d Es mayor que %d ",n1,n);
-		} else{
+		}
+		else if(n1>n)
+		{
+			printf(" %d Es mayor que %d ",n1,n)
+		} 
+		else
+		{
 			printf(" %d Es igual que %d ",n,n1);
 		}
 
